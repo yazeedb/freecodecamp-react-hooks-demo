@@ -1,4 +1,10 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+body {
+  /* background-color: rgb(28, 32, 34); */
+  /* color: white; */
+  font-family: Avenir;
+  font-size: 24px;
+}
+
+button {
+  font-size: 24px;
 }

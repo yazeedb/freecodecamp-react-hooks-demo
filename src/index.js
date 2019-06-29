@@ -1,16 +1,19 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Counter from './Counter';
+import FileUploads from './FileUploads';
+import './styles.css';
 
-import "./styles.css";
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <BrowserRouter>
+      <Route exact path="/" component={Counter} />
+      <Route exact path="/uploads" component={FileUploads} />
+    </BrowserRouter>
   );
-}
+};
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);

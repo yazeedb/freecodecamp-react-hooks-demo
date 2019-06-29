@@ -1,0 +1,59 @@
+.upload-app {
+  width: 66%;
+  margin-left: 20px;
+  margin: 30px auto;
+}
+
+.title {
+  margin: 0;
+  padding: 18px;
+  color: white;
+  background-color: 'aquamarine';
+}
+
+.content {
+  display: flex;
+  border: 1px solid #ccc;
+  height: 70vh;
+}
+
+.upload-ids {
+  padding: 0;
+  width: 20%;
+  overflow-y: auto;
+  flex-basis: 33%;
+  margin: 0;
+}
+
+.upload-ids button {
+  font-size: 20px;
+  border-right: none;
+}
+
+.upload-ids button.active {
+  font-weight: bold;
+}
+
+.upload-details {
+  width: 80%;
+  padding: 15px 30px;
+  flex-basis: 66%;
+  border-left: 1px solid #ccc;
+}
+
+.progress-container {
+  margin-top: 65px;
+}
+
+.progress-container span {
+  display: inline-block;
+}
+
+.progress {
+  height: 35px;
+}
+
+.progress-bar {
+  font-size: 20px;
+  padding: 8px 0;
+}
