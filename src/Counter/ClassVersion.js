@@ -34,6 +34,8 @@ class ClassVersion extends React.Component {
         <h3>Your count is {this.state.count}</h3>
         <button onClick={this.increment}>Increment</button>
         <button onClick={this.decrement}>Decrement</button>
+
+        <h4 style={{ marginTop: '30px' }}>Class Version</h4>
       </div>
     );
   }

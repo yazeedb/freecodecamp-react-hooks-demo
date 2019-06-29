@@ -12,9 +12,11 @@ const HooksVersion = () => {
         margin: '50px'
       }}
     >
-      <h3>Your count is {this.state.count}</h3>
+      <h3>Your count is {count}</h3>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
+
+      <h4 style={{ marginTop: '30px' }}>Hooks Version</h4>
     </div>
   );
 };
